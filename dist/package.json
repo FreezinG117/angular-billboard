@@ -1,0 +1,28 @@
+{
+  "name": "angular-billboard",
+  "version": "0.1.6",
+  "description": "billboard.js for Angular",
+  "main": "bundles/angular-billboard.bundle.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+    "angular",
+    "billboard.js"
+  ],
+  "author": "Alex Kysil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreezinG117/angular-billboard.git"
+  },
+  "homepage": "https://github.com/FreezinG117/angular-billboard",
+  "bugs": {
+    "url": "https://github.com/FreezinG117/angular-billboard/issues"
+  },
+  "dependencies": {
+    "billboard.js": "git+ssh://git@github.com:FreezinG117/billboard.js.git#stanford"
+  },
+  "peerDependencies": {
+    "@angular/core": "^7.2.11"
+  }
+}

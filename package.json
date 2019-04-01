@@ -5,7 +5,7 @@
   "main": "dist/bundles/angular-billboard.bundle.js",
   "module": "dist/index.js",
   "scripts": {
-    "cleanup": "rimraf dist/*",
+    "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.js dist/index.js.map dist/index.ngsummary.json dist/index.metadata.json dist/LICENSE dist/README.md",
     "bundling": "rollup -c",
     "copy": "copyfiles LICENSE README.md dist",
     "build": "npm run cleanup && ngc && npm run bundling && npm run copy"
@@ -18,11 +18,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akysil/angular-billboard.git"
+    "url": "https://github.com/FreezinG117/angular-billboard.git"
   },
-  "homepage": "https://github.com/akysil/angular-billboard",
+  "homepage": "https://github.com/FreezinG117/angular-billboard",
   "bugs": {
-    "url": "https://github.com/akysil/angular-billboard/issues"
+    "url": "https://github.com/FreezinG117/angular-billboard/issues"
   },
   "dependencies": {
     "@angular/cli": "^7.3.7",
