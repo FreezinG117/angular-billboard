@@ -1,6 +1,6 @@
 {
   "name": "angular-billboard",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "billboard.js for Angular",
   "main": "dist/bundles/angular-billboard.bundle.js",
   "module": "dist/index.js",
